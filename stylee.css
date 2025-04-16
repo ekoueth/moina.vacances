@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(to top, #dff6fd, #ffffff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    padding: 2rem;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #0077b6;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 1px #aad8e6;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffffcc;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 119, 182, 0.2);
+    border: 1px solid #bde0fe;
+}
+
+table {
+    width: 100%;
+    border-spacing: 10px;
+}
+
+td {
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #045b62;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 0.4rem;
+    border: 1px solid #bcd;
+    border-radius: 8px;
+    background-color: #f0faff;
+}
+
+input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+input[type="submit"] {
+    background-color: #00b4d8;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+input[type="submit"]:hover {
+    background-color: #0096c7;
+}
