@@ -1,4 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
+    font-family: Century, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-image: url(images/plage.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+body.inscription {
     background: linear-gradient(to top, #dff6fd, #ffffff);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333;
